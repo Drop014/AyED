@@ -6,8 +6,9 @@ int main() {
     double pi = 0.0;
     double x = 0.0000001; 
     bool sumar = true;
+    int n = 0;
 
-    for (int n = 0;; n++) {
+    while (true) {
         double termino = 1.0 / (2 * n + 1);
 
         if (termino < x)
@@ -19,6 +20,7 @@ int main() {
             pi -= termino;
 
         sumar = !sumar;
+        n++;
     }
 
     pi *= 4;
