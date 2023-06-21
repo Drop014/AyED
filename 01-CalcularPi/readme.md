@@ -1,1 +1,1 @@
-Resolucion del primer TP propuesto
+Segunda resolucion del primer TP propuesto
